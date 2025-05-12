@@ -1,8 +1,9 @@
 import { useState } from 'react';
 import Filter from './Filter';
 import CityList from './CityList';
+import results from './cities.json';
 
-const results = ['Seattle', 'San Francisco', 'New York', 'Chicago', 'Los Angeles'];
+// const results = ['Seattle', 'San Francisco', 'New York', 'Chicago', 'Los Angeles'];
 
 function App() {
   const [cities, setCities] = useState(results);
