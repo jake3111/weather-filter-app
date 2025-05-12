@@ -10,7 +10,7 @@ function App() {
   return (
     <div>
       <h1>City Filter</h1>
-      <Filter cities={cities} setCities={setCities} />
+      <Filter cities={results} setCities={setCities} />
       <CityList cities={cities} />
     </div>
   );
